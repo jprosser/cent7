@@ -1,8 +1,8 @@
 #!/bin/bash
 
+maj=7
 if [ $# -ne 1 ]; then
-  echo "need CentOS major"
-  exit 1
+  echo "choosing CentOS 7"
 fi
 
 maj=${1}
